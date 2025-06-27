@@ -70,14 +70,14 @@ gpu_include_dirs = []
 parallel_python_interpreter = False
 compiler = None
 mpi = None
-noblas = True # False
+noblas =  False
 nolibxc = True # False
 fftw = False
 scalapack = False
 libvdwxc = False
 elpa = False
 gpu = False
-intelmkl = True #False
+intelmkl = False
 
 # Advanced:
 # If these are defined, they replace
