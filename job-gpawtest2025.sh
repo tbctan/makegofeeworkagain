@@ -13,6 +13,4 @@ cd ${PBS_O_WORKDIR}
 source /home/bctan/gpawenv/bin/activate
 module load  intel/2020.2.254   intelmpi/2020.2.254
 
-
-
 python atomization.py
