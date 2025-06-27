@@ -3,7 +3,7 @@
 
 ### Preparation
 
-Select intel module and use it consistently throughout install. make sure these are loaded with module list
+Select intel module and use it consistently throughout install. make sure these are loaded with module list.  
 `module load intel/2020.2.254 intelmpi/2020.2.254`
 
 ### Install Python
