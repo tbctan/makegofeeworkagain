@@ -39,6 +39,6 @@ echo "GPAW      " $(which gpaw)
 hostname
 echo " ============= "
 date
- python -u run_search.py
+mpiexec python -u run_search.py
 echo "END"
 date
