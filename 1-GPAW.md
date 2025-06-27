@@ -46,17 +46,17 @@ Edit the following files:
 1. setup.py: 
 setup.py file I used is included in repository as setup-works2025.py.  
 Change options in setup.py to 
-> parallel_python_interpreter = False
-> compiler = None
-> mpi = None
-> noblas = True # False
-> nolibxc = True # False
-> fftw = False
-> scalapack = False
-> libvdwxc = False
-> elpa = False
-> gpu = False
-> intelmkl = True #False
+parallel_python_interpreter = False
+compiler = None
+mpi = None
+noblas =  False
+nolibxc = True # False
+fftw = False
+scalapack = False
+libvdwxc = False
+elpa = False
+gpu = False
+intelmkl = False
 
 i really just disabled stuff until it ran without errors. good luck.
 
