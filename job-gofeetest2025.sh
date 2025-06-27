@@ -31,7 +31,7 @@ export I_MPI_ADJUST_ALLGATHERV=2
 echo " "
 echo " "
 echo $(pwd) 
-echo "MPIRUN    " $(which mpirun)
+echo "MPIEXEC    " $(which mpiexec)
 echo "PYTHON    " $(which python)
 echo "ASE       " $(which ase)
 #### echo "GOFEE     " $(which gofee)
